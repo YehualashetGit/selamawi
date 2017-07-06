@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<phpunit bootstrap="../../selamawi/bootstrap.php"
+		verbose="true"
+		color="true"
+		stop-on-failure="false">
+
+	<testsuites>
+		<testsuite name="Selamawi Test suite">
+			<directory  suffix="Test.php"> tests/unit/selamawi </directory>
+		</testsuite>
+	</testsuites>
+
+</phpunit>
